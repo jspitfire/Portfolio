@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* :root { */
+  /* declare a variable with `--` syntax */
+  /* --dark: #13293d; */
+/* } */
+
+.hero-banner{
+  background-color: rgb(128, 128, 128); 
+  color: #fff; 
+  text-align: center;
+ }
+
+#navBar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #b9790b, #657078)
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
+  justify-content: space-evenly;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.icons{
+  font: bolder;
+}
+
+header{
+  display: inline-block;
+  background-color: #333; 
+  color: white; 
+  padding: 5px; 
+  text-align: center;
+  font-size: 35px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  margin: 0 0 0 0; /* Adjust the top margin to match the height of your fixed navbar */
+  padding: 0;
+  background-color: #fff894;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+ /* Container for flexboxes */
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  margin: 0 20% 0 20%;
+}
+
+.about-container .work-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10%;
+}
+
+h1 {
+display: inline-block;
+font-size: 48px;
+align-items: center;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  display: block;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {display: block;
+font-size: 24px;
+color: blue;
+align-items: center;
+justify-content: center;
+}
+
+#contact{
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+#surf{
+  width: auto;
+  height: 300%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+}
+
+#about img {
+  width: 20vh;
+  height: auto;
+  border-radius: 20%;
+  margin: 10px;
+  float: left;
+}
+
+#First-image {
+  width: 25vh;
+  height: auto;
+  border-radius: 20%;
+  margin: 10px;
+  float: left;
+  justify-content: center;
+}
+
+#Second-image{
+  width: 14vh;
+  height: auto;
+  border-radius: 20%;
+  margin: 10px;
+  float: left;
+}
+
+#Third-image{
+  width: 14vh;
+  height: auto;
+  border-radius: 20%;
+  margin: 10px;
+  float: left;
+}
+
+#Refactoring-marketing-agency-website{
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0 0 0%;
+  border: #000101;
+  border-radius: 10px;
+  margin: 2px;  
+}
+
+#Second-example{
+  background-color: rgb(127, 197, 255);
+  margin: 2px;
+  padding: 0 0 5%;
+  border: #000101;
+  border-radius: 10px;
+  margin: 2px; 
+}
+
+#Third-example{
+  background-color: rgb(127, 157, 255);
+  margin: 2px;
+  padding: 0 0 5%;
+  border: #000101;
+  border-radius: 10px;
+  margin: 2px; 
+}
+
+@media (max-width: 1000px) {
+  .page-wrapper {
+    flex-direction: column;
+    flex-direction: row;
+  }
+  #surf{
+    width: 
+      20%;
+      height: 20%;
+  }
+}
